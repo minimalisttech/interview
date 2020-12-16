@@ -1,20 +1,25 @@
-# Python
+# Python Django
 *.pyc
 *~
-__pycache__
+__pycache__/
 __init__
+*.idea
+*.log
+*.pot
+migrations
+
 
 # Env
 .env
 myvenv/
 venv/
-.idea/
+
 
 # Database
 db.sqlite3
 
-# Static folder at project root
-/static/
+# Media folder at project root
+media
 
 # macOS
 ._*
