@@ -87,7 +87,7 @@ if os.getenv("DATABASE_URL", "") != "":
             "NAME": os.path.relpath(r.path, "/"),
             "USER": r.username,
             "PASSWORD": r.password,
-            "HOST": r.host,
+            "HOST": r.hostname,
             "PORT": r.port,
             "OPTIONS": {"sslmode": "require"},
         }
